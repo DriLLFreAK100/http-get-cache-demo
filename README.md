@@ -15,7 +15,8 @@ Server folder contains a simple Node.js (Excpress) application.
 # Client
 Client folder contains a simple React application. 
 1. Run "npm install" to restore node_modules
-2. Run "npm run start" to start the development server, serving the application.
+2. Change directory (cd) into the Client folder
+3. Run "npm run start" to start the development server, serving the application.
 
 <br/>
 **Please feel free to drop me a message if you are having any problem setting up. Peace!
