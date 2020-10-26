@@ -12,12 +12,13 @@ const serverResponse = () => {
         message: "Yep, this message is from the mighty demo Node.js Server!",
         datetime: new Date(),
       });
-    }, 3000);
+    }, 5000);
   })
     .catch(err => { throw err; })
 };
 
 app.get('/', async (req, res) => {
+  res.set('Cache-Control', 'public, max-age=60'); // 1 Minute
   res.send(await serverResponse());
 });
 
