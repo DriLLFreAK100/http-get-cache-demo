@@ -3,6 +3,9 @@ A demo on the performance benefits from HTTP GET and Cache-Control.
 
 It is a simple Client-Server setup. Simply follow the steps below to spin up the application to test things out!
 
+## Prerequisite: 
+1. Install Node.js https://nodejs.org/en/
+
 # Server
 Server folder contains a simple Node.js (Excpress) application. 
 1. Run "npm install" to restore node_modules
@@ -14,5 +17,5 @@ Client folder contains a simple React application.
 1. Run "npm install" to restore node_modules
 2. Run "npm run start" to start the development server, serving the application.
 
-
-Please feel free to drop me a message if you are having any problem setting up. Peace!
+<br/>
+**Please feel free to drop me a message if you are having any problem setting up. Peace!
